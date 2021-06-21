@@ -176,7 +176,7 @@ check() {
 }
 
 package_php() {
-	pkgdesc='A general-purpose scripting language that is especially suited to web development'
+	pkgdesc='A general-purpose scripting language (debug build)'
 	depends=('libxml2' 'curl' 'libzip' 'pcre2' 'argon2' 'oniguruma')
 	replaces=('php-ldap')
 	conflicts=('php-ldap')

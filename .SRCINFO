@@ -47,7 +47,7 @@ pkgbase = php
 	sha256sums = b538a7c974adde626c35481e4a66d506dc12c598f369dfe79f3fcb9585d8b920
 
 pkgname = php
-	pkgdesc = A general-purpose scripting language that is especially suited to web development
+	pkgdesc = A general-purpose scripting language (debug build)
 	depends = libxml2
 	depends = curl
 	depends = libzip
