@@ -56,6 +56,7 @@ prepare() {
 
 build() {
 	local _phpconfig="--srcdir=../${pkgbase}-${pkgver} \
+		--enable-debug \
 		--config-cache \
 		--prefix=/usr \
 		--sbindir=/usr/bin \
