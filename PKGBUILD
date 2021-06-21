@@ -37,7 +37,7 @@ sha256sums=('d5fc2e4fc780a32404d88c360e3e0009bc725d936459668e9c2ac992f2d83654'
             '4a2add00d93fa991ccdf6356090264c1059c79935642afff6e8d4a2107fa037e'
             '2228131cc65139bd819b617bba06c2406e559c55fbfb38a29f9853ce48c58eeb'
             '640dba0d960bfeaae9ad38d2826d3f6b5d6c175a4d3e16664eefff29141faad5'
-            'b538a7c974adde626c35481e4a66d506dc12c598f369dfe79f3fcb9585d8b920')
+            '0e681c9b897c2abc6313dadb661184f56f1d6517ae5a73e067707899344e9b33')
 validpgpkeys=('1729F83938DA44E27BA0F4D3DBDB397470D12172'
               'BFDDD28642824F8118EF77909B67A5C12229118F')
 
@@ -185,7 +185,7 @@ package_php() {
 
 	cd "${srcdir}/build"
 	make -j1 INSTALL_ROOT="${pkgdir}" install-{modules,cli,build,headers,programs,pharcmd}
-	install -D -m644 "${srcdir}/${pkgbase}-${pkgver}/php.ini-production" "${pkgdir}/etc/php/php.ini"
+	install -D -m644 "${srcdir}/${pkgbase}-${pkgver}/php.ini-development" "${pkgdir}/etc/php/php.ini"
 	install -d -m755 "${pkgdir}/etc/php/conf.d/"
 
 	# remove static modules

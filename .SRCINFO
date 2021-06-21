@@ -44,7 +44,7 @@ pkgbase = php
 	sha256sums = 4a2add00d93fa991ccdf6356090264c1059c79935642afff6e8d4a2107fa037e
 	sha256sums = 2228131cc65139bd819b617bba06c2406e559c55fbfb38a29f9853ce48c58eeb
 	sha256sums = 640dba0d960bfeaae9ad38d2826d3f6b5d6c175a4d3e16664eefff29141faad5
-	sha256sums = b538a7c974adde626c35481e4a66d506dc12c598f369dfe79f3fcb9585d8b920
+	sha256sums = 0e681c9b897c2abc6313dadb661184f56f1d6517ae5a73e067707899344e9b33
 
 pkgname = php
 	pkgdesc = A general-purpose scripting language (debug build)
